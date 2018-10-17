@@ -10,6 +10,8 @@ namespace MusicStoreSample.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Test message.";
+
             return View();
         }
 
