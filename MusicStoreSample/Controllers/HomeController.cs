@@ -28,5 +28,10 @@ namespace MusicStoreSample.Controllers
 
             return View();
         }
+
+        public ActionResult Edit()
+        {
+            return View();
+        }
     }
 }
